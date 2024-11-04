@@ -79,6 +79,7 @@ public class Equipe {
     public void affichernum(){
         String numjouer;
         for (int i = 0; i <memberCount ; i++) {
+            ((Jouer)membres[i]).getNum();
             if(membres[i] instanceof Jouer){
                 System.out.println( ((Jouer) membres[i]).getNum());
             }
